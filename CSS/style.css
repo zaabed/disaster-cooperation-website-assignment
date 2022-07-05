@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.first-area {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.first-area-image {
+    width: 100%;
+}
+
+.heading-paragraph-set {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.heading-set {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.anchore-formatted {
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+}
+
+
+.second-area {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.again-edit {
+    display: flex;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.amount-money {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fae596;
+    border-radius: 5px;
+}
+
+#second-set {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.text-align {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.another-anchor {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
