@@ -6,7 +6,7 @@ body {
 .first-area {
     position: relative;
     text-align: center;
-    color: white;
+    color: antiquewhite;
 }
 
 .first-area-image {
@@ -23,7 +23,7 @@ body {
 
 .heading-set {
     font-size: 50px;
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 .anchore-formatted {
@@ -36,10 +36,19 @@ body {
     background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
 }
 
-
 .second-area {
     text-align: center;
     margin-top: 100px;
+}
+
+.second-area h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.second-area p {
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .again-edit {
@@ -70,15 +79,29 @@ body {
     padding-right: 25%;
 }
 
+.text-align input {
+    border: none;
+    padding: 5px;
+}
+
 .another-anchor {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 100px;
 }
 
-
 .Third-area {
     text-align: center;
+}
+
+.Third-area h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.Third-area p {
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .donate-class {
@@ -111,21 +134,14 @@ body {
     border-radius: 5px;
 }
 
-
-
-
-
-
-
-
-
-
 .extra-section {
     margin-bottom: 100px;
 }
 
-.extra-section h1 {
+.extra-section h2 {
     text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 .up-class {
@@ -143,19 +159,26 @@ body {
     border-radius: 10px;
 }
 
+.disaster-organization h4 {
+    color: orange;
+}
+
 .disaster-organization img {
     width: 100%;
     height: 40%;
     border-radius: 5px;
 }
 
-
-
-
-
-
-
-
+.disaster-organization a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+}
 
 .container {
     margin-bottom: 100px;
@@ -163,6 +186,16 @@ body {
 
 .fourth-area {
     text-align: center;
+}
+
+.fourth-area h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.fourth-area p {
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .make-form {
@@ -183,12 +216,22 @@ body {
 
 }
 
-.subscrive-button {
+.subscribe-button {
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 9px;
     background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
-    border: none;
-    border-radius: 5px;
+}
+
+.subscribe-button input {
     padding: 10px;
+    border: none;
+}
+
+.subscribe-button span {
+    padding: 20px;
     color: white;
+    font-size: 14px;
 }
 
 footer {
@@ -198,6 +241,10 @@ footer {
 .footer-div {
     text-align: center;
     padding: 30px;
-    color: white;
     font-weight: 500;
+    color: white;
+}
+
+.footer-div h3 {
+    color: yellow;
 }
