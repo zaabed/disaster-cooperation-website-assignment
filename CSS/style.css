@@ -119,6 +119,10 @@ body {
     border-radius: 5px;
 }
 
+.donate-semiclass h2 {
+    color: orange;
+}
+
 #donate-first-id {
     background-color: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
